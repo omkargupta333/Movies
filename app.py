@@ -19,11 +19,14 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
+# Link to redirect to
+url = "https://goku.sx/home"
+
 # Button to trigger the redirect
 if st.button("Go to Omkar Mix Movies"):
     st.balloons()  # Show balloons effect
     st.write("Redirecting...")
-    st.markdown(f'<meta http-equiv="refresh" content="0; url=https://goku.sx/home" />', unsafe_allow_html=True)
+    st.write(f"Click [here]({url}) to visit the site.")
 
 # Add some spacing
 st.write(" ")
